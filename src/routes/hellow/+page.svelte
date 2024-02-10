@@ -3,8 +3,8 @@
     
     export let data: PageData;
 </script>
-
-<h1>hollow whirled</h1>
-
+<h1 class="text-blue-900">hollow whirled</h1>
+<div class="text-3xl text-green font-bold underline">
 {data.title}
 {data.text}
+</div>
